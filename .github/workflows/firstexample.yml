@@ -16,5 +16,7 @@ jobs:
             ls -ltra
             cat README.md
 
+      - name: Download cowsay
+
       - name: Generate ASCII Artwork
         run: cowsay -f dragon "Run for cover, I am a Dragon....RAWRR.." >> dragon.txt
